@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Niramit&family=Pacifico&display=swap");
+:root {
+  --font1: "Pacifico", cursive;
+  --font2: "Niramit", sans-serif;
+}
+.inputndSearch {
+  width: 100%;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.inputndSearch form {
+  height: 100%;
+}
+.inputBox {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+.inputndSearch .inputBox input {
+  width: 400px;
+  height: 100%;
+  font-family: var(--font2);
+  border: none;
+  padding: 5px 10px;
+  outline: none;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.inputndSearch .inputBox .addItemBtn {
+  height: 100%;
+  font-family: var(--font2);
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  background-color: #27ae60;
+  color: white;
+}
+.searchBox {
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  font-size: 19px;
+  border: 1px solid #27ae60;
+}

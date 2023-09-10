@@ -1,0 +1,59 @@
+.mainLists {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.mainLists ul {
+  list-style: none;
+}
+.mainLists ul li {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  max-width: 600px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.mainLists ul li div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainLists ul li .checkBox {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.mainLists ul li p {
+  font-family: var(--font2);
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.mainLists ul li svg {
+  font-size: 25px;
+  cursor: pointer;
+}
+.mainLists ul li svg:hover {
+  color: red;
+}
+.mainLists ul li .checkBox:checked + p {
+  text-decoration: 3px red line-through;
+}
+.works {
+  background-color: black;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  color: white;
+  font-family: var(--font2);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 30%;
+}
