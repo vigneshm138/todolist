@@ -8,8 +8,8 @@ import Complete from "./Complete";
 
 function App() {
   //Create Todolist Items
-  const [todoItem, setToItem] = useState(
-    JSON.parse(localStorage.getItem("todolists"))
+  const [todoItem, setToItem] = useState([]
+    //JSON.parse(localStorage.getItem("todolists"))
   );
 
   //Add a new Item
